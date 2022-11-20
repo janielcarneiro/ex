@@ -60,8 +60,23 @@ const styles = StyleSheet.create({
     },
 
     botao:{
-        width:100,
-        
+        width:300,
+        height: 100,
+        backgroundColor: 'blue',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+
+    opcao: {
+        height: 100,
+        width: 200,
+        backgroundColor: 'pink',
+        alignItems: 'center'
+    },
+
+    text: {
+        color: 'black',
+        paddingTop: 15
     }
     
 })

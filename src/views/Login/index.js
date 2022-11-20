@@ -4,15 +4,22 @@ import {
     View, 
     Image, 
     SafeAreaView, 
-    TextInput, 
-    Button } 
+    TextInput,
+    Linking
+    } 
     from "react-native";
 
 import styles from './styles';
 
+import Botao from '../../component/botao';
+
 import logo from '../../assets/Revenue-bro.png';
 
 export default function Login(){
+
+    const sigIn = ()=>{
+        alert("Olá");
+    }
 
     return(
         
@@ -38,8 +45,29 @@ export default function Login(){
                             placeholder="Senha" 
                             keyboardType="text" 
                         />
-
+            
                     </SafeAreaView>
+
+                </View>
+
+                <View style={styles.botao}>
+                    <Botao onpress={sigIn} labelButton="Login" />
+                </View>
+
+                <View style={styles.opcao}>
+
+                    <Text style={styles.text} onPress={()=>{
+                        //Aque colocar a navegação
+                    }}>
+                        Cadastrar
+                    </Text>
+
+                    <Text style={styles.text} onPress={()=>{
+                        //Aque colocar a navegação
+                    }}>
+                        Recuparar Senha
+                    </Text>
+
                 </View>
 
             </View>
