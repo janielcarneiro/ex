@@ -6,7 +6,7 @@ import styles from "./styles";
  export default function Botao({onpress, labelButton}){
     return(
         <TouchableOpacity style={styles.botao} onPress={onpress} >
-            <Text>{labelButton}</Text>
+            <Text style={styles.corTexto}>{labelButton}</Text>
         </TouchableOpacity>
     )
 }

@@ -13,7 +13,6 @@ const styles = StyleSheet.create({
     caixa: {
         width: '90%',
         height: '90%',
-        backgroundColor: '#fff',
         alignItems: 'center',
         justifyContent: 'flex-start',
         
@@ -24,6 +23,8 @@ const styles = StyleSheet.create({
         height: 150,
         alignItems: 'center',
         justifyContent: 'center',
+        marginTop: 10,
+        paddingTop: 20
     },
 
     logo: {
@@ -33,14 +34,14 @@ const styles = StyleSheet.create({
     },
     login:{
         fontSize: 30,
-        color: "green",
+        color: "#fafafa",
     },
 
     CaixaInput: {
         width: '100%',
-        height: 200,
-        backgroundColor: 'green',
+        height: 170,
         marginTop: 25,
+      
     },
 
     input: {
@@ -51,6 +52,7 @@ const styles = StyleSheet.create({
         borderRadius: 5,
         padding: 10,
         fontSize: 17,
+        color: 'white',
     },
 
     Caixabotao:{
@@ -61,22 +63,23 @@ const styles = StyleSheet.create({
 
     botao:{
         width:300,
-        height: 100,
-        backgroundColor: 'blue',
+        height: 90,
         alignItems: 'center',
         justifyContent: 'center',
+        marginBottom: 10
     },
 
     opcao: {
         height: 100,
         width: 200,
-        backgroundColor: 'pink',
-        alignItems: 'center'
+        marginBottom: 16,
+        alignItems: 'center',
     },
 
     text: {
-        color: 'black',
-        paddingTop: 15
+        color: '#30D82D',
+        paddingTop: 16,
+        fontWeight: "bold",
     }
     
 })

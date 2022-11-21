@@ -2,11 +2,17 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     botao: {
-        width:120,
-        height: 80,
-        backgroundColor: 'pink',
+        width:230,
+        height: 60,
+        backgroundColor: '#30D82D',
         justifyContent: 'center',
         alignItems: 'center',
+        borderRadius: 40,
+    },
+
+    corTexto: {
+        color: "#fafafa",
+        fontSize: 20,
     }
 })
 

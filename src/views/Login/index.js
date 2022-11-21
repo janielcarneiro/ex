@@ -38,34 +38,38 @@ export default function Login(){
                             style={styles.input} 
                             placeholder="Nome Usuario" 
                             keyboardType="text" 
+                            placeholderTextColor="gray"
                         />
 
                         <TextInput 
                             style={styles.input} 
                             placeholder="Senha" 
                             keyboardType="text" 
+                            placeholderTextColor="gray"
                         />
             
                     </SafeAreaView>
 
                 </View>
 
+
                 <View style={styles.botao}>
                     <Botao onpress={sigIn} labelButton="Login" />
                 </View>
+
 
                 <View style={styles.opcao}>
 
                     <Text style={styles.text} onPress={()=>{
                         //Aque colocar a navegação
                     }}>
-                        Cadastrar
+                        Criar Conta!
                     </Text>
 
                     <Text style={styles.text} onPress={()=>{
                         //Aque colocar a navegação
                     }}>
-                        Recuparar Senha
+                        Recuparar Senha!
                     </Text>
 
                 </View>
