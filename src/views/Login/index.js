@@ -15,10 +15,14 @@ import Botao from '../../component/botao';
 
 import logo from '../../assets/Revenue-bro.png';
 
-export default function Login(){
+export default function Login({navigation}){
 
     const sigIn = ()=>{
         alert("Olá");
+    }
+
+    function nav(){
+        navigation.navigate('TelaCadastroEmail');
     }
 
     return(
@@ -61,7 +65,7 @@ export default function Login(){
                 <View style={styles.opcao}>
 
                     <Text style={styles.text} onPress={()=>{
-                        //Aque colocar a navegação
+                        nav();
                     }}>
                         Criar Conta!
                     </Text>
