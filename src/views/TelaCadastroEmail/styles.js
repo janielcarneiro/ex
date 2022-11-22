@@ -23,7 +23,15 @@ const styles = StyleSheet.create({
         width: '100%',
         height: 60,
         backgroundColor: 'pink',
-    }
+    },
+    
+    botao:{
+        width:300,
+        height: 90,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginBottom: 10
+    },
 
 });
 
