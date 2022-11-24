@@ -22,7 +22,7 @@ export default function TelaCadastroEmail({navigation}){
             <View style={styles.caixa}>
                 
                 <Voltar onpress={nav}/>
-                <CampoEmail tituloEmail="Digete seu Email" link={ola} NomeBotao="Comfirmar"/>
+                <CampoEmail tituloEmail="Digete o seu Email" link={ola} NomeBotao="Comfirmar"/>
 
             </View>
 

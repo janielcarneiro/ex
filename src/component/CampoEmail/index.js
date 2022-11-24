@@ -8,14 +8,14 @@ export default function CampoEmail({tituloEmail, link, NomeBotao,}){
     return(
         <View style={styles.container}>
             <View style={styles.caixa}>
-                <Text>{tituloEmail}</Text>
+                <Text style={styles.titulo}>{tituloEmail}</Text>
 
                 <View style={styles.CaixaInput}>
                     <SafeAreaView>
 
                         <TextInput 
                             style={styles.input} 
-                            placeholder="Nome Usuario" 
+                            placeholder="E-mail" 
                             keyboardType="text" 
                             placeholderTextColor="gray"
                         />

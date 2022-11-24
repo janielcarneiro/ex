@@ -6,14 +6,14 @@ const styles = StyleSheet.create({
         height: '100%',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: 'red',
+        backgroundColor: '#151515',
         
     },
 
     caixa: {
         width: '100%',
         height: '70%',
-        backgroundColor: 'blue',
+        backgroundColor: '#151515',
         alignItems: 'center',
     },
 
@@ -34,6 +34,11 @@ const styles = StyleSheet.create({
         fontSize: 17,
         color: 'white',
     },
+
+    titulo: {
+        fontSize: 15,
+        color: '#fafafa'
+    }
 
 });
 
