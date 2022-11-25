@@ -8,12 +8,13 @@ import styles from "./styles";
 
 export default function TelaCadastroEmail({navigation}){
 
-    function nav(){
+     const Login = () =>{
         navigation.navigate('Login');
     }
+    
 
-    const ola = ()=>{
-        alert("Ola");
+    const ConfirmarCodigo = ()=>{
+        navigation.navigate('ConfirmarCodigo');
     }
     
     return(
@@ -21,8 +22,8 @@ export default function TelaCadastroEmail({navigation}){
 
             <View style={styles.caixa}>
                 
-                <Voltar onpress={nav}/>
-                <CampoEmail tituloEmail="Digete o seu Email" link={ola} NomeBotao="Comfirmar"/>
+                <Voltar onpress={Login}/>
+                <CampoEmail tituloEmail="Digete o seu Email" link={ConfirmarCodigo} NomeBotao="Comfirmar"/>
 
             </View>
 
