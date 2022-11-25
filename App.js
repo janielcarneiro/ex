@@ -7,11 +7,14 @@ import TelaCadastroEmail from './src/views/TelaCadastroEmail';
 
 import ConfirmarCodigo from './src/views/ConfirmarCodigo';
 
+import CadastroUsuario from './src/views/CadastroUsuario';
+
 const Routes = createAppContainer(
   createSwitchNavigator({
     Login,
     TelaCadastroEmail,
-    ConfirmarCodigo
+    ConfirmarCodigo,
+    CadastroUsuario,
   })
 )
 

@@ -11,8 +11,8 @@ export default function ConfirmarCodigo({navigation}){
         navigation.navigate('TelaCadastroEmail');
     }
 
-    const ola = ()=>{
-        alert("oi");
+    const cadastro = () =>{
+        navigation.navigate('CadastroUsuario');
     }
 
     return(
@@ -21,7 +21,7 @@ export default function ConfirmarCodigo({navigation}){
             <View style={styles.caixa}>
                 
                 <Voltar onpress={TelaCadastroEmail}/>
-                <ConfirmaCodigo tituloEmail="Digete os 6 Digetos" link={ola}  NomeBotao="Confirmar"/>
+                <ConfirmaCodigo tituloEmail="Digete os 6 Digetos" link={cadastro}  NomeBotao="Confirmar"/>
             </View>
 
         </View>
