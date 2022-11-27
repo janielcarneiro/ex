@@ -18,12 +18,6 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-start',
     },
 
-    camp: {
-        width: 40,
-        height: 20,
-        backgroundColor: "red",
-        flex: 1
-    }
 
 })
 

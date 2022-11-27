@@ -15,7 +15,7 @@ export default function CampoEmail({tituloEmail, link, NomeBotao,}){
 
                         <TextInput 
                             style={styles.input} 
-                            placeholder="E-mail" 
+                            placeholder="Código" 
                             keyboardType="text" 
                             placeholderTextColor="gray"
                         />

@@ -21,7 +21,7 @@ export default function ConfirmarCodigo({navigation}){
             <View style={styles.caixa}>
                 
                 <Voltar onpress={TelaCadastroEmail}/>
-                <ConfirmaCodigo tituloEmail="Digete os 6 Digetos" link={cadastro}  NomeBotao="Confirmar"/>
+                <ConfirmaCodigo tituloEmail="Digete o código de 6 Digetos!" link={cadastro}  NomeBotao="Confirmar"/>
             </View>
 
         </View>
