@@ -25,6 +25,10 @@ export default function Login({navigation}){
         navigation.navigate('TelaCadastroEmail');
     }
 
+    function navs(){
+        navigation.navigate('ConfirmarEmail');
+    }
+
     return(
         
         <View style={styles.container}>
@@ -71,7 +75,7 @@ export default function Login({navigation}){
                     </Text>
 
                     <Text style={styles.text} onPress={()=>{
-                        //Aque colocar a navegação
+                        navs();
                     }}>
                         Recuparar Senha!
                     </Text>
