@@ -23,7 +23,7 @@ export default function TelaCadastroEmail({navigation}){
             <View style={styles.caixa}>
                 
                 <Voltar onpress={Login}/>
-                <CampoEmail tituloEmail="Digete o seu Email" link={ConfirmarCodigo} NomeBotao="Comfirmar"/>
+                <CampoEmail tituloEmail="Digete o seu Email" link={ConfirmarCodigo} NomeBotao="Confirmar"/>
 
             </View>
 

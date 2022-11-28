@@ -12,6 +12,7 @@ import ConfirmarEmail from './src/views/RecuperarSenha/ConfirmarEmail';
 import NovoCodigo from './src/views/RecuperarSenha/NovoCodigo';
 import Atualizar from './src/views/RecuperarSenha/Atualizar';
 
+
 const Routes = createAppContainer(
   createSwitchNavigator({
     Login,
