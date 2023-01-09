@@ -22,7 +22,7 @@ export default function Login({navigation}){
     }
 
     function nav(){
-        navigation.navigate('TelaCadastroEmail');
+        navigation.navigate('CadastroUsuario');
     }
 
     function navs(){

@@ -8,7 +8,7 @@ import CampoCadastro from "../../component/CampoCadastro";
 export default function CadastroUsuario({navigation}){
 
     const voltar = ()=>{
-        navigation.navigate('ConfirmarCodigo');
+        navigation.navigate('Login');
     }
     
     const ola = ()=>{
@@ -19,7 +19,13 @@ export default function CadastroUsuario({navigation}){
        <View style={styles.container}>
             <View style={styles.caixa}>
                 <Voltar onpress={voltar}/>
-                <CampoCadastro link={ola} NomeBotao="Cadastrar"/>
+                <CampoCadastro 
+                    link={ola} 
+                    NomeBotao="Cadastrar" 
+                    campo_um="E-mail"
+                    campo_dois="Nome"
+                    campo_tres= "Senha"
+                    />
             
             </View>
        </View>

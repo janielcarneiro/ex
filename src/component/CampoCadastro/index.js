@@ -3,7 +3,7 @@ import {Text, View, TextInput, SafeAreaView} from "react-native";
 import styles from "./styles";
 import Botao from '../../component/botao';
 
-export default function CampoCadastro({link, NomeBotao}){
+export default function CampoCadastro(props){
 
 
     return(
@@ -15,19 +15,19 @@ export default function CampoCadastro({link, NomeBotao}){
 
                         <TextInput 
                             style={styles.input} 
-                            placeholder="E-mail" 
+                            placeholder= {props.campo_um} 
                             keyboardType="text" 
                             placeholderTextColor="gray"
                         />
                         <TextInput 
                             style={styles.input} 
-                            placeholder="Senha" 
+                            placeholder={props.campo_dois} 
                             keyboardType="text" 
                             placeholderTextColor="gray"
                         />
                         <TextInput 
                             style={styles.input} 
-                            placeholder="Confirmar Senha!" 
+                            placeholder={props.campo_tres}  
                             keyboardType="text" 
                             placeholderTextColor="gray"
                         />
@@ -37,7 +37,7 @@ export default function CampoCadastro({link, NomeBotao}){
                 </View>
 
                 <View style={styles.btn}>
-                    <Botao labelButton={NomeBotao} onpress={link}/>
+                    <Botao labelButton={props.NomeBotao} onpress={props.link}/>
                 </View>
                
             </View>
